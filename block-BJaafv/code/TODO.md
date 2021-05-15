@@ -11,6 +11,7 @@ function sum(a, b) {
   console.log(a + b);
 }
 ```
+- 
 
 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
 
@@ -43,11 +44,11 @@ function showMessage() {
   return message;
 }
 
-alert(userName); // Output 1
+alert(userName); // Output 1  - john
 
-showMessage(); // Output 2
+showMessage(); // Output 2  - 'Hello, John'
 
-alert(userName); // Output 3
+alert(userName); // Output 3 - john
 ```
 
 8. What is a Anonymous Function give example of three functions.
