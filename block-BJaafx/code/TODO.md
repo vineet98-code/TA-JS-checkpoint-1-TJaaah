@@ -10,8 +10,15 @@ while (i < 3) {
 }
 ```
 
+
+
 3. Write a function named `getEvenSum` that accepts a parameter `max`. Return the sum of all even numbers. The value of max should default to 10.
 
+- function getEvenSum(max){
+   if(max % 2 == 0){
+     return 
+   }
+}
 4. Write a function named `getOddSum` that accepts a parameter `max`. Return the sum of all odd numbers. The value of max should default to 10.
 
 5. Write a function named `getProductOfDigits` that accepts a parameter `num`. It returns the product of all the digits in the number.
@@ -34,9 +41,9 @@ function check(num) {
   return num;
 }
 
-check(10); // output
-check(1); // output
-check(5); // output
+check(10); // output - "Bigger than 5" - num is greater than 5
+check(1); // output  - "Smaller than 5" - num is less than 5
+check(5); // output  - 5  - return the same number
 ```
 
 7. What will be the output of the following code given below? Explain the reason?
@@ -48,9 +55,10 @@ function getOutput(name) {
   return 'Who are you';
 }
 
-getOutput('Arya'); // what will be the output
-getOutput('John'); // what will be the output
-getOutput(); // what will be the output
+getOutput('Arya'); // "You are arya" - name is assigning to the Arya and then returning the return value 
+getOutput('John'); // "You are john" - name is assigning to the John and returning the return value
+getOutput(); // "Who are you" - returning the same name
+
 ```
 
 8. What will be the output of the following code given below? Explain the reason?
