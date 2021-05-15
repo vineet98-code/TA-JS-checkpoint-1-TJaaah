@@ -21,6 +21,9 @@ function sum(a, b) {
 
 5. Declare a function named `sayHello` the accepts a parameter `name` and returns the name like `Hello Arya`.
 
+- function sayHello(name){
+   return `Hello ${name}`
+} 
 6. What will be the output of the function below and why?
 
 ```js
@@ -31,7 +34,7 @@ function showMessage() {
   return message;
 }
 
-showMessage();
+showMessage(); // "Hello John"
 ```
 
 7. What will be the output for `Output1` `Output2` and `Output3` in the code below.
@@ -52,6 +55,13 @@ alert(userName); // Output 3 - john
 ```
 
 8. What is a Anonymous Function give example of three functions.
+- An Anonymous function is a function without a function name. Only function expressions can be anonymous, function declarations must have a name.
+
+Example - const square = function(number) { return number * number }
+          const sum = function(a,b) { return a+b }
+          const factorial = function (n) { return n < 2 ? 1 : n * fac(n - 1) }
+
+
 
 9. Can function declaration be a Anonymous Function? Explain
 
