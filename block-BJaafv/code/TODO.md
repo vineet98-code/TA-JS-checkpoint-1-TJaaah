@@ -17,9 +17,12 @@ It `doesn'/t` have any return statement. If we pass the value in paramenter, the
 
 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
 
-- 
+- var first = return `a+b` = 7;
+var second = undefined; = undefined;
+
 
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
+
 
 4. Can you store the first `sum` function in a variable named `add`. If yes why? If no why?
 
